@@ -1,0 +1,9 @@
+Hyperparameter 自己设定的参数
+Sigmoid 最基础的函数，对其他进行复合 可由 relu合成
+batch 将所有example分成n份进行梯度下降，以batch为步长 循环一次 叫一个 epoch
+深度学习的一般操作： 
+      （  预测值分析：  先找一个function为他设置，设立neural ，多层的bais 和 weight                 ）
+---（                                      								    )  ---- 设置一个loss函数，用loss函数对所有的参数矩阵梯度下降，找到最佳的bias和weigh
+      （分类算法：选择模型，用sigmoid function，Gaussian 来算出概率，条件概率>0.5的选择这个。)
+反向传播算法： backpropagation --求微分 --求梯度
+
